@@ -1,8 +1,8 @@
 /* CSS Set up */
 *{
-    margin:5px;
+    margin:0px;
     padding:0;
-    background-color:grey;
+
 }
 
 *,
@@ -10,3 +10,54 @@
     box-sizing:border-box;
 }
 
+body{
+    background-color:white;
+    display:flex;
+    
+}
+
+/* containers */
+
+.sidebar{
+    width:30vw;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    justify-content:flex-start;
+    background-color:gray;
+    padding:5px;
+    padding-top:20px;
+}
+
+.main-container{
+    width: 100%;
+    padding:5px;
+    background-color:white;
+}
+
+/* subsection containers (sidebar) */
+
+.information{
+    display:flex;
+    flex-direction:column;
+    background-color:white;
+    gap:5px;
+}
+
+.about{
+    background-color:white;
+}
+
+.skills{
+    background-color:white;
+}
+
+/* elements */
+
+.social{
+    height:10vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
