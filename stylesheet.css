@@ -1,0 +1,12 @@
+/* CSS Set up */
+*{
+    margin:5px;
+    padding:0;
+    background-color:grey;
+}
+
+*,
+*::before,*::after{
+    box-sizing:border-box;
+}
+
